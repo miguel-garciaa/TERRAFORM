@@ -7,6 +7,6 @@ resource "aws_vpc" "compartida" {
   tags = {
     Name      = "VPC-Laboratorio-Compartido"
     ManagedBy = "Terraform"
-    Editor    = "Windows"
+    Editor    = "Ubuntu"
   }
 }
